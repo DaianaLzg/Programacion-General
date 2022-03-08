@@ -21,3 +21,5 @@ SELECT * FROM tienda;
 SELECT * FROM tienda WHERE pmenor > 0 ORDER BY pmenor;
 
 SELECT stock, MIN(stock) FROM tienda;
+
+SELECT stock FROM tienda WHERE name = "remera roja"
